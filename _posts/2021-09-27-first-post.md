@@ -1,9 +1,10 @@
 ---
 date: 2021-09-27
 title: "Sample Post"
-layout: archieve
+layout: single
+author_profile: false
 categories:
-  - Mathematics
+  - math-post
 tags:
   - Mathematics
 ---
