@@ -6,24 +6,24 @@ author_profile: true
 ---
 
 ### Education
-- **KAIST** *MAR 2016 - AUG 2021* Major in Computer Science, Second Major in Mathematical Science
-- **Korea Science Academy of KAIST** *MAR 2012 - FEB 2015* High School
+- **San Francisco State University** *AUG 2021 -*\
+Mathematics MA 
+- **KAIST** *MAR 2016 - AUG 2021*\
+School of Computing, Mathematical Science
+- **Korea Science Academy of KAIST** *MAR 2012 - FEB 2015*\
+High School
 
 ### Internship
-- **Moloco**, Seoul, Korea *DEC 2020 - Present* Software Engineering Intern in Android Media APIs Team (starting soon)
-- **Google**, Seoul, Korea *JAN 2020 - FEB 2020* Software Engineering STEP Intern
+- **Moloco**, Seoul, Korea *DEC 2020 - MAR 2021*\
+Software Engineering Intern (Moloco Clouds Team)
+- **Google**, Seoul, Korea *JAN 2020 - FEB 2020*\
+Software Engineering STEP Intern (Android Media APIs Team)
 
 ### Research
-- **KAIST VCLAB** *MAR 2020 - AUG 2020* Individual Study and Internship
-
-### Teaching
-- **Python Tutoring** *MAR 2019 - DEC 2020* Taught Python Programming to School Club in Daedeok High School
+- **KAIST VCLAB** *MAR 2020 - AUG 2020*\
+Individual Study and Internship
 
 ### Awards and Scholarships
-- 2019 APAC [Women Techmakers Scholar](https://www.womentechmakers.com/)
+- 2019 APAC [Women Techmakers Scholar]("https://www.womentechmakers.com/")
 
-### Programming Languages
-Python, Java, C++, Scala, Matlab, LaTeX
-
-### Frameworks/Libraries
-Pytorch, Flask, Pandas, Matplotlib, Scikit-Learn, Numpy/Scipy, OpenGL, OpenCV
+You can see my [CV]({{ site.baseurl }}{% link /assets/CV.pdf %}).
