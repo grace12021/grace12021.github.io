@@ -4,7 +4,7 @@ title: "Sample Post"
 layout: single
 author_profile: false
 categories:
-  - math-post
+  - posts
 tags:
   - Mathematics
 ---

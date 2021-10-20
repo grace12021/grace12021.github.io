@@ -270,6 +270,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  photo_gallery:
+    output: true
+    sort_by: weight
 
 # Defaults
 defaults:
