@@ -10,3 +10,8 @@ tags:
 ---
 
 Mathematics is beautiful!
+\\(
+\begin{equation}
+a = b + \frac{1}{3}
+\end{equation}
+\\)
