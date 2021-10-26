@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### Education
-- **San Francisco State University** *AUG 2021 - JUL 2023(Expected)*\
+- **San Francisco State University** *AUG 2021 - JUL 2023*\
 Mathematics MA
 - **KAIST** *MAR 2016 - AUG 2021*\
 School of Computing, Mathematical Science
