@@ -12,11 +12,12 @@ tags:
 I have a goal to share one proof a day in 2022!
 Today's proof is for one **proposition** in section 0.3 of *Undergraduate Commutative Algebra* by Miles Reid. In the book, UFD(*unique factorization domain*) is defined as an integral domain such taht every element factors as a product of finitely many irreducibles and irreducible implies prime.
 
-**Proposition**
+**Proposition**\
 In a UFD $$A$$, the expression of 
 $$x = b \prod p_i^{n_i}$$ as a product of irreducibles with $$p_i \not\vert p_j$$ is unique up to invertible elements.
 
-*Proof* For any $$x$$, define $$\vert x \vert$$ be the minimum value of $$\sum n_i$$ where $$x = b \prod p_i^{n_i}$$. We proceed by induction on $$\vert x\vert$$.
+*Proof*\
+For any $$x$$, define $$\vert x \vert$$ be the minimum value of $$\sum n_i$$ where $$x = b \prod p_i^{n_i}$$. We proceed by induction on $$\vert x\vert$$.
 
 When $$\vert x\vert = 1$$, we can write that $$x = bp$$ where $$p$$ is irreducible and $$b_1$$ is a unit. Suppose that we can write $$x = c \prod_{j=1}^{M}q_j^{m_j}$$ as a product of a unit and irreducibles not dividing each other. Since $$p$$ is irreducible, $$M=1$$ and furthermore $$m_1=1$$. Then the expression of $$x$$ is unique up to invertible elements.
 
