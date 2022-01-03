@@ -4,9 +4,9 @@ title: "Starting Blog with Jekyll"
 layout: single
 author_profile: false
 categories:
-  - posts
+  - daily
 tags:
-  - jekyll, blog
+  - [jekyll, blog]
 ---
 
 I finally finished initial set-up for my own jekyll blog.
