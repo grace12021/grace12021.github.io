@@ -8,4 +8,5 @@ categories:
 tags:
   - one-proof-a-day
 ---
-(Draft2)
+
+I'm not sure what happened!
