@@ -11,7 +11,7 @@ tags:
 This is the proof of Cayley-Hamilton theorem for $$R$$-modules.
 
 **Cayley-Hamilton theorem**\
-Let $M$ be a finitely generated $$R$$-module.
+Let $$M$$ be a finitely generated $$R$$-module.
 Let $$\phi: M \rightarrow M$$ be an $$R$$-module homomorphism.
 If $$p(x)$$ is the characteristic polynomial of any matrix representing $$\phi$$, then $$p(\phi) = 0$$.
 
