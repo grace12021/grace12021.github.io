@@ -13,9 +13,9 @@ In $$\mathbb{Z}[x]$$, $$x^4+1$$ is irreducible. But it is reducible in $$\mod p$
 I searched for a proof done by more basic concepts and I found a beautiful solution for this!! Here is the reference of this proof:
 https://math.stackexchange.com/questions/1159950/proving-that-x41-is-reducible-over-all-finite-prime-fields/1159962#1159962
 
-It is known that $$\mathbb{Z}_p^*}$$ is a cyclic multiplicative group if $$p$$ is a prime.
+It is known that $$\mathbb{Z}_p^*$$ is a cyclic multiplicative group if $$p$$ is a prime.
 We claim that $$ab$$ is a square of some element in $$\mod p$$ if $$a$$ and $$b$$ are not squares.
-Since $$a = x^k$$ and $$b = x^l$$ for an element $$x$$ which geneartes $$\mathbb{Z}_p^*}$$.
+Since $$a = x^k$$ and $$b = x^l$$ for an element $$x$$ which geneartes $$\mathbb{Z}_p^*$$.
 We have that $$k,l$$ are odd because $$a,b$$ are not squares.
 Then $$ab = x^{k+l}$$ is a square of $$x^{(k+l)/2}$$ because $$k+l$$ is even.
 Therefore we have that at least one of $$a, b, ab$$ is a square of some element for any $$a,b \in \mod p$$.
