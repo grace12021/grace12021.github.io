@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Math 34A Worksheet"
+date:   2024-09-23
+---
+We have uploaded worksheets for Math 34.
+
+- [Secant Lines and Tangent Lines](/assets/documents/teaching/Demo.pdf), Sep 23 2024
+
+Please make sure to review it before our next session.
+
+Happy studying!
