@@ -1,46 +1,32 @@
-name: build
+name: Jekyll site CI
 
 on:
   push:
     branches:
-      - master
-  workflow_dispatch: {}
-  repository_dispatch: {}
+      - main  # Trigger the workflow on push to main branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-    - uses: ruby/setup-ruby@v1
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.3'
-    - name: Setup cache for Bundler
-      id: cache
-      uses: actions/cache@v4
+        ruby-version: 3.3  # Specify Ruby version compatible with Jekyll
+        bundler-cache: true
+
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Build the site
+      run: bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        path: |
-          docs/Gemfile.lock
-          docs/vendor/bundle
-        key: ${{ runner.os }}-bundler-${{ hashFiles('docs/Gemfile') }}
-        restore-keys: |
-          ${{ runner.os }}-bundler-
-
-    - name: Install - Bundler
-      env:
-        MAKE: make -j2
-      working-directory: docs/
-      run: |
-        bundle config set path vendor/bundle
-        bundle install --jobs=4 --retry=3
-        bundle clean
-
-    - name: Update Algolia index
-      working-directory: docs/
-      run: bundle exec jekyll algolia push
-      env:
-        ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-      continue-on-error: true
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
