@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* 2. Apply the font to the whole site. */
+body {
+  /* The browser will try 'Inter' first, then fall back to any available sans-serif font. */
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* 3. (Optional) Use it for headings too. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
