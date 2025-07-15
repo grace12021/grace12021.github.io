@@ -15,7 +15,7 @@ hexo.extend.filter.register('after_render:css', function(cssString, data) {
   // Replace "Old Font Name" with the font you want to remove.
   // Replace "Inter" with the font you want to add.
   const oldFont = 'Chillax-Variable';
-  const newFont = 'Open Sans';
+  const newFont = '"Open Sans", sans-serif';
 
   console.log(`[Font Override] Processing: ${data.path}`);
   const modifiedCss = cssString.replace(new RegExp(oldFont, 'g'), newFont);

@@ -13,7 +13,7 @@ info:
   # Site title
   title: Nayeong's Blog
   # Site subtitle
-  subtitle: ''
+  subtitle: Mainly about Mathematics
   # Author name
   author: Nayeong Kim
   # Site URL
@@ -54,12 +54,12 @@ global:
     english: 
       enable: true # Whether to enable custom english fonts
       family: 'Open Sans' # Font family
-      url: https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap # Font URL to CSS file
+      url: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
       enable: true # Whether to enable custom english fonts
       family: 'Open Sans' # Font family
-      url: https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap # Font URL to CSS file
+      url: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -71,7 +71,7 @@ global:
   # Scroll progress
   scroll_progress:
     bar: false # progress bar
-    percentage: true # percentage
+    percentage: false # percentage
   # Website counter
   website_counter:
     url: https://cn.vercount.one/js # counter API URL (no need to change)
@@ -95,7 +95,7 @@ global:
   open_graph:
     enable: false
     image: /images/redefine-og.webp  # default og:image
-    description: Hexo Theme Redefine, Redefine Your Hexo Journey.
+    description: 
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -159,7 +159,7 @@ home_banner:
   custom_font: 
       enable: true # Whether to enable custom english fonts
       family: 'Open Sans' # Font family
-      url: https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap # Font URL to CSS file
+      url: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap # Font URL to CSS file
   # Home banner social links
   social_links:
     # Whether to enable
