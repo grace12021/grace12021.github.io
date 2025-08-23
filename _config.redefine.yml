@@ -170,6 +170,8 @@ home_banner:
     links:
       github: https://github.com/grace12021 # your GitHub URL
       instagram: https://www.instagram.com/springcat021/ # your Instagram URL
+      linkedin: https://www.linkedin.com/in/nayeong-kim-545975192 # your LinkedIn URL
+      fa-solid fa-home: https://www.nayeong.dev # your personal website
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -207,6 +209,8 @@ navbar:
       icon: fa-regular fa-user
       submenus:
         Me: https://www.nayeong.dev # your personal website
+        Instagram: https://www.instagram.com/springcat021
+        LinkedIn: https://www.linkedin.com/in/nayeong-kim-545975192
         Github: https://github.com/grace12021
     # Links: 
     #   icon: fa-regular fa-link
