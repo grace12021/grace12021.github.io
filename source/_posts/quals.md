@@ -1,6 +1,7 @@
 ---
 title: Qualifying Exam
-date: 2025-07-17 12:41:54
+date: 2025-07-17
+updated: 2025-08-25
 tags: UCSB, Qualifying_Exam
 ---
 Qualifying exams are the first major hurdle for me as a first-year math graduate student.

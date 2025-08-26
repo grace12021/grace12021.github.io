@@ -208,10 +208,11 @@ navbar:
     About: 
       icon: fa-regular fa-user
       submenus:
-        Me: https://www.nayeong.dev # your personal website
-        Instagram: https://www.instagram.com/springcat021
+        About: /2025/07/15/About
+        Homepage: https://www.nayeong.dev # your personal website
         LinkedIn: https://www.linkedin.com/in/nayeong-kim-545975192
         Github: https://github.com/grace12021
+        Instagram: https://www.instagram.com/springcat021
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:

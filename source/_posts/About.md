@@ -1,6 +1,7 @@
 ---
 title: About
-date: 2025-07-15 16:51:24
+date: 2025-07-15
+updated: 2025-08-26
 tags:
 ---
 
