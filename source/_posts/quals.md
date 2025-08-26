@@ -16,8 +16,8 @@ For that reason, it's highly recommended that you prepare during the summer befo
 This allows you to take the exams while the material from your undergraduate courses is still fresh in your mind!
 
 UCSB offers a repository of past qualifying exams to help students prepare.
-If you're an incoming student, you'll receive access to this resource soon.
-You'll also get access to a repository of solutions to past qualifying exams, maintained by fellow graduate students.
+If you're an incoming student, you'll receive access to [this resource](https://drive.google.com/drive/folders/0B1v4A0GzFvfHTnZRaFVDaks5R1E?resourcekey=0-3Fz_YPJ6nupoks3vq63X_w&usp=drive_link) soon.
+You'll also get access to a [repository](https://drive.google.com/drive/folders/1JJx8CO8xx3tf6zUTlJOTkuVTpQo6U0Qd?usp=drive_link) of solutions to past qualifying exams, maintained by fellow graduate students.
 
 For Algebra and Topology, the exam material closely matches what is covered in the first-year graduate courses for each subject.
 Reviewing lecture notes, textbooks, and homework from those classes is especially helpful for preparation.
